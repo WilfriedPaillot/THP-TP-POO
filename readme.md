@@ -8,6 +8,12 @@ Coder une application où tu pourras créer des événements avec une date de d�
 
 ### Contraintes:
 
+Spécifications Class User
+
+- Un User a 2 variables d'instance, un @email (string) et un @age (Integer), que l'on peut lire et modifier à sa guise (indice : attr_accessor).
+- Dès la création d'un User, on veut définir son e-mail et son âge. En d'autres terme, on veut pouvoir faire julie = User.new("julie@email.com", 32)
+- Réaliser des méthodes de classes pour afficher tous les utilisateurs et un utilisateur par son email
+
 Nous allons faire une classe Event qui aura plusieurs variables d'instance : 
 - une date de début
 - une durée 
